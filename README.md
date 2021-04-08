@@ -27,10 +27,10 @@ Users should be able to:
 
 ### Screenshot
 
-* Desktop Design Preview*
+*Desktop Design Preview*
 ![Design preview for the 3-column preview card component coding challenge](./screenshots/screenshot_1.png)
 
-* Mobile Design Preview*
+*Mobile Design Preview*
 ![Mobile Design preview of 3-column card component coding challenge](./screenshots/screenshot_2.png)
 
 ### Links
