@@ -20,7 +20,7 @@ body {
   align-items: center;
   min-height: 100vh;
   background-color: var(--light-gray);
-  font-family: 'Lexend Deca', sans-serif;
+  font-family: "Lexend Deca", sans-serif;
 }
 
 p {
@@ -34,7 +34,7 @@ h1 {
   padding-top: 1rem;
   text-transform: uppercase;
   color: var(--light-gray);
-  font-family: 'Big Shoulders Display', sans-serif;
+  font-family: "Big Shoulders Display", sans-serif;
 }
 
 .container {
@@ -92,4 +92,36 @@ h1 {
 
 .cruise__btn {
   color: var(--darker-cyan);
+}
+
+@media screen and (max-width: 376px) {
+
+  p {
+    font-size: 14px;
+  }
+  .container {
+    grid-template-columns: 1fr;
+    margin: 3rem 0;
+  }
+
+  .container .card {
+    height: 350px;
+    width: 300px;
+  }
+
+  .sedans__container {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 0;
+  }
+
+  .cruise__container {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+  }
+  
+  .btn {
+    margin-top: 0rem;
+  }
 }
